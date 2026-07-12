@@ -88,6 +88,15 @@ DailyCheckIn 是一个部署在 Monad Testnet 上的最小每日打卡智能合�
 ### Write Function
 
 在 Remix 的 `Deployed Contracts` 中展开合约，调用：
-
 ```text
 checkIn()
+```
+
+## Demo 截图
+### MonadVision 合约部署与交互记录
+
+![MonadVision 合约部署与交互记录](./001.png)
+
+### Remix Read Function 查询结果
+
+![Remix checkInCount 查询结果](./002.png)
