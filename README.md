@@ -58,14 +58,17 @@ DailyCheckIn 是一个部署在 Monad Testnet 上的最小每日打卡智能合�
 - Network: Monad Testnet
 - Chain ID: `10143`
 - License: MIT
-
 ## 链上部署信息
 
-- Deployer Address: `填写你的完整课程钱包地址`
+- Contract Name: `DailyCheckIn`
+- Network: `Monad Testnet`
+- Chain ID: `10143`
+- Deployer Address: `0x022F6be5F362Bf8685bD8d292dD6227588bC0329`
 - Contract Address: `0xcB4993E563a4C892d945277C53a39ee6885097E0`
-- Deployment Transaction Hash: `填写完整部署交易 Hash`
-- Successful CheckIn Transaction Hash: `填写完整交互交易 Hash`
-
+- Deployment Transaction Hash: `0x5e67f389ed93417a37fd9cad1ab5e4e85353238b9efe1a3f244284dfee6c1283`
+- Write Function: `checkIn()`
+- Successful CheckIn Transaction Hash: `0xa0c653fee6a368a38bda43e1e02bf79f6e9117ac726e3e456fffe2488d74434b`
+- Transaction Status: `Success`
 ## 部署步骤
 
 1. 在 Remix 中创建 `DailyCheckIn.sol`。
