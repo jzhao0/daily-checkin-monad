@@ -1,0 +1,57 @@
+## Goal
+
+Build a minimal web interface for the existing DailyCheckIn contract deployed on Monad Testnet.
+
+## User Flow
+
+Connect wallet
+→ detect Monad Testnet
+→ read check-in status
+→ submit checkIn()
+→ display transaction result
+
+## Tasks
+
+- [ ] Create the frontend project
+- [ ] Connect Bitget Wallet or MetaMask
+- [ ] Display the connected wallet address
+- [ ] Detect Chain ID 10143
+- [ ] Provide a network error message
+- [ ] Load the existing DailyCheckIn contract
+- [ ] Read checkInCount(address)
+- [ ] Read canCheckIn(address)
+- [ ] Call checkIn()
+- [ ] Display Pending status
+- [ ] Display Success status
+- [ ] Display Failed status
+- [ ] Display the transaction hash
+- [ ] Add a MonadVision transaction link
+- [ ] Add screenshots
+- [ ] Update README to v0.2
+
+## Contract
+
+Network: Monad Testnet
+
+Chain ID: 10143
+
+Contract address:
+
+0xcB4993E563a4C892d945277C53a39ee6885097E0
+
+## Security Constraints
+
+- Do not expose private keys or seed phrases
+- Do not commit secrets or .env files
+- Do not use real funds
+- Do not automatically sign transactions
+- Do not change the deployed contract without approval
+
+## Acceptance Criteria
+
+- The wallet can connect successfully
+- The page identifies the correct network
+- The page displays the correct wallet address
+- The page reads contract state
+- The user can manually confirm checkIn()
+- The result can be verified on MonadVision
