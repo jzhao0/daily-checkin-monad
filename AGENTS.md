@@ -1,5 +1,11 @@
 # AGENTS.md
 
+## Fast path for ordinary development
+
+- A button, color, label, or layout change: edit the frontend component and test the visible behavior once. Do not generate contract fixtures, additional smoke/probe suites, deployment plans, or new layers for cosmetic work.
+- For wallet/network behavior, use existing focused tests and a testnet-only check if required. Never add transactions, redeploy contracts, access secrets, or touch funds without the existing explicit authorization.
+
+
 ## Project
 
 DailyCheckIn is a learning-oriented smart contract and Web DApp project deployed on Monad Testnet.
